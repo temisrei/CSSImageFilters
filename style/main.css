@@ -1,0 +1,22 @@
+h1 {
+  margin: 30px auto;
+}
+
+.container .row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 50px;
+}
+footer p::before,
+footer p::after {
+  content: '-';
+}
+footer p::before {
+  margin-right: 10px;
+}
+footer p::after {
+  margin-left: 10px;
+}

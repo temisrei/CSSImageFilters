@@ -1,0 +1,9 @@
+.grayscale img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.grayscale img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}

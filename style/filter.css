@@ -67,3 +67,12 @@
   -webkit-filter: brightness(1);
           filter: brightness(1);
 }
+
+.huerotate img {
+  -webkit-filter: hue-rotate(180deg);
+          filter: hue-rotate(180deg);
+}
+.huerotate img:hover {
+  -webkit-filter: hue-rotate(0);
+          filter: hue-rotate(0);
+}

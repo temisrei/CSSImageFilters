@@ -37,7 +37,17 @@
 .opacity img {
   opacity: .5;
 }
-
 .opacity img:hover {
   opacity: 1;
 }
+
+.saturate img {
+  filter: saturate(500%);
+}
+
+.saturate img:hover {
+  filter: saturate(100%);
+}
+
+
+

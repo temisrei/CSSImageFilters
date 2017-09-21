@@ -2,7 +2,6 @@
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
 }
-
 .grayscale img:hover {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
@@ -13,8 +12,17 @@
   -webkit-filter: blur(3px);
           filter: blur(3px);
 }
-
 .blur img:hover {
   -webkit-filter: blur(0);
           filter: blur(0);
+}
+
+
+.sepia img {
+  -webkit-filter: sepia(1);
+          filter: sepia(1);
+}
+.sepia img:hover {
+  -webkit-filter: sepia(0);
+          filter: sepia(0);
 }

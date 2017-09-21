@@ -33,3 +33,11 @@
   -webkit-filter: invert(0);
           filter: invert(0);
 }
+
+.opacity img {
+  opacity: .5;
+}
+
+.opacity img:hover {
+  opacity: 1;
+}

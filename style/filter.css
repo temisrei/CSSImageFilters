@@ -44,10 +44,13 @@
 .saturate img {
   filter: saturate(500%);
 }
-
 .saturate img:hover {
   filter: saturate(100%);
 }
 
-
-
+.contrast img {
+  filter: contrast(.5);
+}
+.contrast img:hover {
+  filter: contrast(1);
+}
